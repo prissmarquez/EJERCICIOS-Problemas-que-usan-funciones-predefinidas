@@ -12,4 +12,6 @@ tasaCrecimineto = float(input("Ingresa la tasa de crecimiento (número entre 0 y
 
 poblacion = a * (math.pow(math.e, tasaCrecimineto * tiempoAños))
 
-print(round(poblacion))
+print(math.trunc(poblacion))
+
+#print(round(poblacion))
